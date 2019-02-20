@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-char c;
+char a;
 printf("enter the character");
-scanf("%c",&c);
-if(c>='a' && c<='z')
+scanf("%c",&a);
+if(a>='a' && a<='z')
 {
-printf("%c alphabet",c);
+printf("%c alphabet",a);
 }
 else
 {
-printf("%c not alphabet",c);
+printf("%c not alphabet",a);
 }
 getch();
 }
