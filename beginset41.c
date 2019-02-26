@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+char a[100];
+int b=0,i;
+for(i=0;a[i]<=20;i++)
+{
+  scanf("%c",&a[i]);
+    if((a[i]>='a')&&(a[i]<='z')&&(a[i]!=' '))
+      b=b+1;
+}
+printf("%d",b);
+}
