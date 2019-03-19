@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int a,b,c;
 printf("enter two numbers");
@@ -9,5 +9,5 @@ a=a^b;
 b=a^b;
 a=a^b;
 printf("%d\t%d",a,b);
-getch();
+return 0;
 }
