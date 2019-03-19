@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int main() {
+void main() {
 	int a[10],max=-999,n,i;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -15,5 +15,5 @@ int main() {
 	    }
 	}
 	printf("%d",max);
-	return 0;
+	getch();
 }
