@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-int a,b,n;
+int a,b,num;
 printf("enter 2 number");
 scanf("%d%d",&a,&b);
-n=a*b;
-if(n%2==0)
+num=a*b;
+if(num%2==0)
 {
 printf("product is even");
 }
